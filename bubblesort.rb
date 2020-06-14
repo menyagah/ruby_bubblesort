@@ -13,8 +13,7 @@ def bubble_sort_by(arr)
       if block_given?
         orient = yield arr[i - 1], arr[i]
       else
-        puts 'Please add a block!!'
-        break
+        return p 'Please add a block!!'  
       end
       arr[i], arr[i - 1] = arr[i - 1], arr[i] if orient.positive?
     end
