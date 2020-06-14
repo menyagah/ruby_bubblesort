@@ -29,5 +29,3 @@ end
 # p bubble_sort_by(["hi","hello","hey"]) do |left, right|
 #     left.length - right.length
 # end
-
-p bubble_sort_by([3,2,11,34,56,121,131,1,2,11,44,77,88,10001,1000000,0,-1]){ |left, right| right - left}
