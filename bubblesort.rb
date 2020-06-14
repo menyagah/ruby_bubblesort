@@ -1,7 +1,7 @@
 def bubble_sort(arr)
   (arr.length - 1).times do |n|
     (1...arr.length - n).each do |i|
-      arr[i - 1], arr[i] = arr[i], arr[i - 1] if arr[i - 1] > arr[i]   
+      arr[i - 1], arr[i] = arr[i], arr[i - 1] if arr[i - 1] > arr[i]
     end
   end
   arr
