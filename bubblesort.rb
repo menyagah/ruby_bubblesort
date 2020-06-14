@@ -1,6 +1,6 @@
 def bubble_sort(arr)
   (arr.length - 1).times do |n|
-    for i in (1...arr.length - n)
+    (1...arr.length - n).each do |i|
       if arr[i - 1] > arr[i]
         arr[i - 1], arr[i] = arr[i], arr[i - 1]
       end
@@ -11,7 +11,7 @@ end
 
 def bubble_sort_by(arr)
   (arr.length - 1).times do |n|
-    for i in (1...arr.length - n)
+    (1...arr.length - n).each do |i|
       orient = yield arr[i - 1], arr[i] if block_given?
       if orient > 0
         arr[i], arr[i - 1] = arr[i - 1], arr[i]
@@ -28,3 +28,6 @@ end
 # p bubble_sort_by(["hi","hello","hey"]) do |left, right|
 #     left.length - right.length
 # end
+
+
+  
