@@ -8,21 +8,13 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(arr)
+  return 'Error! Please add a block.' unless block_given?
+
   (arr.length - 1).times do |n|
     (1...arr.length - n).each do |i|
-      return p 'Please add a block!!' unless block_given?
-
       orient = yield arr[i - 1], arr[i]
       arr[i], arr[i - 1] = arr[i - 1], arr[i] if orient.positive?
     end
   end
   arr
 end
-
-# bubble_sort_by([3,2,11,34,56,121,131,1,2,11,44,77,88,10001,1000000,0,-1]) do |left, right|
-#     left - right
-# end
-
-# p bubble_sort_by(["hi","hello","hey"]) do |left, right|
-#     left.length - right.length
-# end
