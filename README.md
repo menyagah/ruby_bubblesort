@@ -30,7 +30,7 @@ This is an algorithm that sorts items in an array.
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
  ​
-## �� Contributing
+## Contributing
 
 ​
 Contributions, issues and feature requests are welcome!
@@ -48,6 +48,6 @@ Give a ⭐️ if you like this project!
 
 - The Odin Project
 
-## �� License
+## License
 ​
 This project is [MIT](lic.url) licensed.
