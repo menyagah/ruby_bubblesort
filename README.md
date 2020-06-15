@@ -14,7 +14,7 @@ This is an algorithm that sorts items in an array.
 ## Authors
 
 ​
-#### 👤 **Hubert MUGABO**
+#### 👤  **Hubert MUGABO**
 ​
 
 - Github: [@mugberto](https://github.com/mugberto)
@@ -22,7 +22,7 @@ This is an algorithm that sorts items in an array.
 - Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
 
 
-#### 👤 **Martin NYAGAH MUGO**
+#### 👤  **Martin NYAGAH MUGO**
 
  ​
 - Github: [@menyagah](https://github.com/menyagah)
